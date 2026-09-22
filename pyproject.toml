@@ -7,7 +7,10 @@ authors = [
     { name = "i-X-ce", email = "iceci2804@gmail.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "pandas>=3.0.6",
+    "tabulate>=0.10.0",
+]
 
 [project.scripts]
 research-analyze = "research_analyze:main"
